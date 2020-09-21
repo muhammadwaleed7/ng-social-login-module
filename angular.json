@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-library": {
+    "ng-social-login-module": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -36,7 +36,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-library",
+            "outputPath": "dist/ng-social-login-module",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-library:build"
+            "browserTarget": "ng-social-login-module:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-library:build:production"
+              "browserTarget": "ng-social-login-module:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-library:build"
+            "browserTarget": "ng-social-login-module:build"
           }
         },
         "test": {
@@ -159,5 +159,5 @@
       }
     }
   },
-  "defaultProject": "angular-library"
+  "defaultProject": "ng-social-login-module"
 }
