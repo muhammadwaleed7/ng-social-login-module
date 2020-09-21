@@ -1,42 +1,42 @@
 {
   "name": "ng-social-login-module",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "version": "1.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarfarazansari/ng-social-login-module"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^6.1.0",
-    "@angular/common": "^6.1.0",
-    "@angular/compiler": "^6.1.0",
-    "@angular/core": "^6.1.0",
-    "@angular/forms": "^6.1.0",
-    "@angular/http": "^6.1.0",
-    "@angular/platform-browser": "^6.1.0",
-    "@angular/platform-browser-dynamic": "^6.1.0",
-    "@angular/router": "^6.1.0",
-    "core-js": "^2.5.4",
-    "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarfarazansari/ng-social-login-module/issues"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.7.0",
-    "@angular-devkit/build-ng-packagr": "~0.7.0",
-    "@angular/cli": "~6.1.1",
-    "@angular/compiler-cli": "^6.1.0",
-    "@angular/language-service": "^6.1.0",
-    "@types/node": "~8.9.4",
-    "codelyzer": "~4.2.1",
-    "ng-packagr": "^3.0.0",
-    "ts-node": "~5.0.1",
-    "tsickle": ">=0.29.0",
-    "tslib": "^1.9.0",
-    "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
-  }
+  "author": {
+    "name": "Sarfaraz Ansari",
+    "email": "sarfaraz_designer@gmail.com"
+  },
+  "keywords": [
+    "angular 6",
+    "ng",
+    "ngx",
+    "social authentication",
+    "angular-social-login",
+    "social-authentication",
+    "social-login",
+    "google-authentication",
+    "facebook-authentication"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "main": "bundles/ng-social-login-module.umd.js",
+  "module": "fesm5/ng-social-login-module.js",
+  "es2015": "fesm2015/ng-social-login-module.js",
+  "esm5": "esm5/ng-social-login-module.js",
+  "esm2015": "esm2015/ng-social-login-module.js",
+  "fesm5": "fesm5/ng-social-login-module.js",
+  "fesm2015": "fesm2015/ng-social-login-module.js",
+  "typings": "ng-social-login-module.d.ts",
+  "metadata": "ng-social-login-module.metadata.json",
+  "sideEffects": false
 }
